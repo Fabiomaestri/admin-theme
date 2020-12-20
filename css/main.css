@@ -1,0 +1,178 @@
+
+
+/* ### COLORS ### */
+:root{
+    --magic-mint: #91f9e5ff;
+    --violet-red: #f75590ff;
+    --champagne-pink: #fce4d8ff;
+    --jasmine: #fbd87fff;
+    --middle-green: #568259ff;
+    --black-: #162017;
+    --grey-:#707070;
+}
+
+/* MAIN STYLES */
+body{
+    /* font-family: 'Merriweather Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+p{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.right-padding{
+    padding-right: 0;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.max-viewport{
+    min-height: 100vh;
+}
+
+.text-jasmine{
+    color: var(--jasmine);
+}
+
+/* NAVBAR */
+.navbar{
+    border-top: 1px solid var(--jasmine);
+    border-bottom: 2px solid var(--jasmine);
+    background: var(--black-);
+
+}
+.navbar .navbar-brand{
+    color: var(--jasmine);
+}
+
+.navbar .nav-link,
+.navbar .icons{
+    color: var(--grey-);
+    font-size: 12px;
+}
+
+.navbar .icon{
+    position: relative;
+}
+
+.navbar .icon::after{
+    position: absolute;
+    content: "";
+    top: -5px;
+    left: 7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--jasmine);
+}
+
+.perfect-circle{
+    height: 25px;
+    width: 25px;
+}
+
+/* SIDEBAR */
+.sidebar{
+    background: var(--black-);
+}
+
+.sidebar .nav-link,
+.sidebar .navbar-brand{
+    color: var(--grey-);
+}
+
+.sidebar .nav-link:hover,
+.sidebar .navbar-brand:hover{
+    color: var(--champagne-pink);
+}
+
+.sidebar .nav-link:hover .fa{
+    color: var(--jasmine)!important;
+}
+
+.hr-1{
+    border: 1px solid var(--jasmine);
+    height: 0.1px;
+    width: 100%;
+}
+
+/* CARD SECTION */
+.inform-card .card-footer i, .card-footer a{
+    transition: all 0.2s ease-in-out;
+}
+
+.card-footer i, .card-footer a{
+    color: #F8F9FA;
+}
+
+.card-footer{
+    border: none;
+}
+
+.inform-card .card-1{
+    transition: all 0.2s ease-in-out;
+    background: #E5A607;
+    color: #F8F9FA;
+    border: none;
+}
+
+.inform-card .card-1:hover{
+    -webkit-box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+}
+
+.inform-card .card-2{
+    transition: all 0.2s ease-in-out;
+    background: #C6094E;
+    color: #F8F9FA;
+    border: none;
+}
+
+.inform-card .card-2:hover{
+    -webkit-box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+}
+
+.inform-card .card-3{
+    transition: all 0.2s ease-in-out;
+    background: #365037;
+    color: #F8F9FA;
+    border: none;
+}
+
+.inform-card .card-3:hover{
+    -webkit-box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+}
+
+.inform-card .card-4{
+    transition: all 0.2s ease-in-out;
+    background: #F07435;
+    color: #F8F9FA;
+    border: none;
+}
+
+.inform-card .card-4:hover{
+    -webkit-box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 32px 3px rgba(0,0,0,0.47);
+}
+
+.inform-card .card .body-icon{
+    font-size: 30px;
+}
+
+.inform-card{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+
